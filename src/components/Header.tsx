@@ -45,7 +45,7 @@ export default function Header() {
             <span className="sr-only">Seniors Hive</span>
             <div className="flex items-center">
               <div className="h-full w-16 rounded-lg bg-amber-800 flex items-center justify-center">
-                <img src="/img/logo-solo-1.png" alt="Senior&apos;s Hub" className="w-16 h-full" />
+                <img src="/img/new-logo.png" alt="Senior&apos;s Hub" className="w-16 h-full" />
               </div>
               <span className="ml-2 text-xl font-semibold text-gray-900">Seniors Hive</span>
             </div>

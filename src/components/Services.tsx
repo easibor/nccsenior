@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import Image from 'next/image';
 import { 
   Users, 
   Activity,
@@ -60,9 +60,11 @@ export default function Services() {
               and maintain their independence. Our comprehensive programs are designed to enrich lives 
               and create lasting friendships. */}
             </p>
-            <img
-              alt=""
+            <Image
+              alt="Seniors Hive Activity Center"
               src="/img/4.jpeg"
+              width={800}
+              height={600}
               className="mt-16 aspect-6/5 w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-138"
             />
           </div>

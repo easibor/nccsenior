@@ -10,10 +10,15 @@ export const metadata: Metadata = {
   keywords: "senior center, community center, senior services, social programs, senior activities, Springfield IL",
   authors: [{ name: "Seniors Hive Community Center" }],
   icons: {
-    icon: '/img/logo-solo-1.png',
-    shortcut: '/img/logo-solo-1.png',
-    apple: '/img/logo-solo-1.png',
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon.ico', sizes: 'any' }
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/android-chrome-192x192.png',
   },
+  manifest: '/site.webmanifest',
   openGraph: {
     title: "New City Church - Seniors Hive",
     description: "Nurturing Independence, Fostering Connections: Your Home Away From Home",
